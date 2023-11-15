@@ -146,16 +146,9 @@
       )
     )
     (symbol "2328702-6_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 17.78 2.54)
-          (xy 17.78 -15.24)
-          (xy 5.08 -15.24)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
+      (rectangle (start 5.08 2.54) (end 17.78 -15.24)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
       )
     )
   )
@@ -552,16 +545,9 @@
       )
     )
     (symbol "AXE516127_0_1"
-      (polyline
-        (pts
-          (xy 0 17.78)
-          (xy 22.86 17.78)
-          (xy 22.86 0)
-          (xy 0 0)
-          (xy 0 17.78)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
+      (rectangle (start 0 17.78) (end 22.86 0)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
       )
     )
   )
@@ -938,16 +924,9 @@
       )
     )
     (symbol "BMM150_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 25.4 2.54)
-          (xy 25.4 -15.24)
-          (xy 5.08 -15.24)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
+      (rectangle (start 5.08 2.54) (end 25.4 -15.24)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
       )
     )
   )
@@ -1995,16 +1974,9 @@
       )
     )
     (symbol "GD25D10CKIGR_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 30.48 2.54)
-          (xy 30.48 -15.24)
-          (xy 5.08 -15.24)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
+      (rectangle (start 5.08 2.54) (end 30.48 -15.24)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
       )
     )
   )
@@ -4404,16 +4376,9 @@
       )
     )
     (symbol "nRF52832-QFAA-R7_0_1"
-      (polyline
-        (pts
-          (xy 5.08 20.32)
-          (xy 40.64 20.32)
-          (xy 40.64 -60.96)
-          (xy 5.08 -60.96)
-          (xy 5.08 20.32)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
+      (rectangle (start 5.08 20.32) (end 40.64 -60.96)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
       )
     )
   )
