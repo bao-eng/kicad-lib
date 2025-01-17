@@ -1,0 +1,219 @@
+(footprint "3220-10-0300-00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Connector Header Surface Mount 10 position 0.050\" (1.27mm)")
+	(property "Reference" "REF**"
+		(at 0 -7.2136 0)
+		(layer "F.SilkS")
+		(uuid "62ff5690-ff1e-4091-9b1c-85b28086b558")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3220-10-0300-00"
+		(at 0 7.366 0)
+		(layer "F.Fab")
+		(uuid "6c731e36-997f-4c1d-976b-30487e30c065")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da905e7-ade7-429c-8e50-3240c0f46490")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b2e24a8-5643-4f55-ab17-b33996f6aa4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a328f3b7-3653-4b95-979a-9cc49d2a7750")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -6.35)
+		(end -2.5 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba775620-c2ef-4ac0-9249-866eed089b5d")
+	)
+	(fp_line
+		(start -2.5 -6.35)
+		(end 2.5 -6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae311101-0ef1-4688-93fa-d616599b5751")
+	)
+	(fp_line
+		(start -2.5 6.35)
+		(end -2.5 3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39eea147-b8f7-4051-8aea-8ad4b078ebf3")
+	)
+	(fp_line
+		(start -2.5 6.35)
+		(end 2.5 6.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be849848-937b-46c0-aba4-7bfecfe21ac9")
+	)
+	(fp_line
+		(start 2.5 -6.35)
+		(end 2.5 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbffb36a-ee90-49b3-b1cd-3221a26910d1")
+	)
+	(fp_line
+		(start 2.5 6.35)
+		(end 2.5 3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc154b6-e7a0-4912-8598-43caa965efe2")
+	)
+	(fp_circle
+		(center -2.9972 -3.302)
+		(end -2.9972 -3.177)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b31dcaf4-34ff-42c3-9f26-6e3dae4313d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "1e01c9b9-3d31-4697-95bd-64ca00538654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.95 -2.54)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f5d4878-903e-4858-9ede-2a1126689a9b")
+	)
+	(pad "2" smd rect
+		(at 1.95 -2.54)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef08b9df-bfa1-4b49-98bd-6064a41066f6")
+	)
+	(pad "3" smd rect
+		(at -1.95 -1.27)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eed294bf-482a-4d40-a279-f12273c561f6")
+	)
+	(pad "4" smd rect
+		(at 1.95 -1.27)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a4df6b93-f0af-4e63-99a6-15d8d0f30e00")
+	)
+	(pad "5" smd rect
+		(at -1.95 0)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "75cae40b-e740-4595-b5d7-fd288bb62e56")
+	)
+	(pad "6" smd rect
+		(at 1.95 0)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a98b79a0-a07a-40b3-aa70-25890f1158e0")
+	)
+	(pad "7" smd rect
+		(at -1.95 1.27)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a89c00c-7c8e-422c-a70b-9117079f13a2")
+	)
+	(pad "8" smd rect
+		(at 1.95 1.27)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2afbf1dd-abd6-4b25-9ec4-c81a43f545da")
+	)
+	(pad "9" smd rect
+		(at -1.95 2.54)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03733ce7-f663-49be-95bf-1e14d38b51b5")
+	)
+	(pad "10" smd rect
+		(at 1.95 2.54)
+		(size 2.77 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de272581-dba8-492d-a4ea-b1bcf368e9a0")
+	)
+	(model "${KICAD_BAO_LIB}/bao-lib.3dshapes/3220-10-0300-00 3D.stp"
+		(offset
+			(xyz -2.54 6.35 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 180)
+		)
+	)
+)

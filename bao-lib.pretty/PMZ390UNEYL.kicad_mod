@@ -1,0 +1,190 @@
+(footprint "PMZ390UNEYL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PMZ390UNEYL-1")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -1.78 0)
+		(layer "F.SilkS")
+		(uuid "a2df0d01-0488-4738-b330-5478aadbd0c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PMZ390UNEYL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5da9df3-8807-41fa-b434-b48d0030d319")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b36b7190-cdd1-4003-a8c3-91cf4e4012a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "820a1ef6-affa-46ed-a0b1-cead66c36bf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778b1542-72ce-4703-b27c-5350f700ea51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -0.225)
+		(end -1.1 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41e3917e-31df-41bf-8c0d-5bb7d33c7762")
+	)
+	(fp_line
+		(start -1 -0.225)
+		(end -1 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea66d436-0c2e-4b83-9379-e31387f16958")
+	)
+	(fp_arc
+		(start -1.1 -0.225)
+		(mid -1.05 -0.275)
+		(end -1 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "943b6d8a-98a4-4cee-b45c-e4f941602078")
+	)
+	(fp_arc
+		(start -1 -0.225)
+		(mid -1.05 -0.175)
+		(end -1.1 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "659e75a3-211b-494c-adb1-a426e0170876")
+	)
+	(fp_line
+		(start -0.492 -0.292)
+		(end -0.492 0.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4300c5d4-d167-40c1-9ad1-28641bafd92b")
+	)
+	(fp_line
+		(start -0.492 0.292)
+		(end 0.493 0.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e73de2f0-a7dc-4739-a7af-d39649e8098a")
+	)
+	(fp_line
+		(start 0.493 -0.292)
+		(end -0.492 -0.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60be5111-1b89-4350-8802-4e93feba3869")
+	)
+	(fp_line
+		(start 0.493 0.292)
+		(end 0.493 -0.292)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc1cb8dd-9b77-4302-a000-837b9654a44c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bbe2fdf2-3829-41af-afe7-0e761da09d33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.35 -0.225 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "613a5c44-046d-4f32-a7eb-5787aacb9c37")
+	)
+	(pad "2" smd rect
+		(at -0.35 0.225 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b42695f7-b0d2-4e0f-bfd2-dc0f199e2db5")
+	)
+	(pad "3" smd rect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "115902b2-64be-440d-848a-64cf5d6e74d3")
+	)
+	(model "${KICAD_BAO_LIB}/bao-lib.3dshapes/PMZ390UNEYL.stp"
+		(offset
+			(xyz 0.75 -0.4 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)

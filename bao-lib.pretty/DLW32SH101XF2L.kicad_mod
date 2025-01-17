@@ -1,0 +1,106 @@
+(footprint "DLW32SH101XF2L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ececce30-173b-44b5-abf8-dd293ee470f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DLW32SH101XF2L"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18c721ff-1bbb-4737-a2a2-bf19673b332e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acdf06a3-acfd-4f92-ab32-811fb55474d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "899cc95f-8714-4b18-b935-9c447e3024d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f514acd3-fc6c-43af-9a01-f44cf3c411e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "83a14173-e536-417b-9dc0-9279b41d3360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.525 -0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ee57f4b-2a1c-4da0-a08e-5bfec1bcc035")
+	)
+	(pad "2" smd rect
+		(at 1.525 -0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2e2ab37a-2722-47eb-9f5a-4ab56b13bc90")
+	)
+	(pad "3" smd rect
+		(at -1.525 0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "05e125ea-6b92-47b5-aad3-bacb8f7aabc3")
+	)
+	(pad "4" smd rect
+		(at 1.525 0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "014b26bd-ede1-4362-bddd-14b69c31f418")
+	)
+)

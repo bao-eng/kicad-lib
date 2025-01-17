@@ -1,0 +1,152 @@
+(footprint "M20-8900405"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Connector Header Surface Mount, Right Angle 4 position 0.100\" (2.54mm)")
+	(property "Reference" "REF**"
+		(at 0.0508 -5.7404 0)
+		(layer "F.SilkS")
+		(uuid "e733555a-f140-4d20-9b96-6b01981b24b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M20-8900405"
+		(at -0.0508 6.1468 0)
+		(layer "F.Fab")
+		(uuid "faea3a92-6088-41ff-9933-838a563f23ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0f232a6-cd33-4fd0-ae94-f1f8167aec6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edefcb95-7a80-4f0a-8c9b-f207ea2e68c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d836d03-b1ea-48bd-86f9-1da9144fbf17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -5.08)
+		(end 11.95 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "332141cb-053f-4d6b-ab80-3e2242fd8aa8")
+	)
+	(fp_line
+		(start -1.25 5.08)
+		(end -1.25 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a029335-9c70-41bd-85cb-b7001a7a551d")
+	)
+	(fp_line
+		(start -1.25 5.08)
+		(end 11.95 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8865a2da-c4be-4007-aed0-d9c851c94520")
+	)
+	(fp_line
+		(start 11.95 5.08)
+		(end 11.95 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11f66c4d-e5be-4608-8106-a120eb753159")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.6416 -0.0508 90)
+		(layer "F.Fab")
+		(uuid "0de7625f-6b7c-414a-96ab-73dc8cb4ae7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.81)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4cfe9008-d358-4f8d-84fb-b783c0b4e324")
+	)
+	(pad "2" smd rect
+		(at 0 -1.27)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b792399-389b-4551-9505-67d6e77d8180")
+	)
+	(pad "3" smd rect
+		(at 0 1.27)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c12f185-95d8-4f70-822b-0b59ec0d15c6")
+	)
+	(pad "4" smd rect
+		(at 0 3.81)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "902752ae-0650-4c68-9d7b-7224cc9cd39b")
+	)
+	(model "${KICAD_BAO_LIB}/bao-lib.3dshapes/m20-89004xx_asm.stp"
+		(offset
+			(xyz 6 -6.35 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

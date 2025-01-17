@@ -1,25 +1,118 @@
-(footprint "254" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp b7cdff89-7d24-4787-9a24-fe49a329f40d)
-  )
-  (fp_text value "254" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 7813b686-b75d-4822-ac40-ec0c6348d547)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1a6f8017-bf9e-41e1-a50e-d87ab0cd5283)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.85) (layers "*.Cu" "*.Mask") (tstamp f072189e-ce7c-486f-a616-124b826d19c7))
-  (pad "1" smd rect (at 0 0) (size 5.2 4.24) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 644d8532-e2b7-4f69-9aa7-903e08d36b8d))
-  (pad "1" thru_hole circle (at 0 16) (size 2.5 2.5) (drill 1.85) (layers "*.Cu" "*.Mask") (tstamp 7e744083-73a5-4f84-9d82-cb9fc69dfbe7))
-  (pad "1" smd rect (at 0 16) (size 3.3 4.24) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 779e2512-0502-465c-a42e-af791dbf519b))
-  (model "${KIPRJMOD}/3dmodels/254.stp"
-    (offset (xyz 0 -6.75 16))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "254"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7cdff89-7d24-4787-9a24-fe49a329f40d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "254"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7813b686-b75d-4822-ac40-ec0c6348d547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c9e660b-b962-4eb8-a08a-48dbc9ca299c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4111385b-436a-4a3e-afb7-db74e87c15f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e97f7022-e803-4396-abb9-2b40b8b005b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1a6f8017-bf9e-41e1-a50e-d87ab0cd5283")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f072189e-ce7c-486f-a616-124b826d19c7")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5.2 4.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "644d8532-e2b7-4f69-9aa7-903e08d36b8d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 16)
+		(size 2.5 2.5)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e744083-73a5-4f84-9d82-cb9fc69dfbe7")
+	)
+	(pad "1" smd rect
+		(at 0 16)
+		(size 3.3 4.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "779e2512-0502-465c-a42e-af791dbf519b")
+	)
+	(model "${KICAD_BAO_LIB}/bao-lib.3dshapes/254.stp"
+		(offset
+			(xyz 0 -6.75 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
